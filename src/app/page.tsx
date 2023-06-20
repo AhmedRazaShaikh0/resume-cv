@@ -19,7 +19,7 @@ export default function Home() {
       </div>
       <div className=" bg-white p-8 w-[70%]">
         <div className="mb-6">
-          <h2 className="text-2xl font-bold mb-2">About Me</h2>
+          <h2 className="text-2xl font-bold mb-2 text-black">About Me</h2>
           <p className="text-gray-700">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend ultrices urna, nec
             lacinia mauris placerat ac. Integer scelerisque facilisis urna, at maximus urna
@@ -27,26 +27,29 @@ export default function Home() {
             vitae consequat mi erat id leo.
           </p>
         </div>
-        <div className="mb-6">
-          <h2 className="text-2xl font-bold mb-2">Experience</h2>
+        <div className="mb-6 border-t-2 pt-6 border-black">
+          <h2 className="text-2xl font-bold mb-2 text-black">Experience</h2>
           <div>
-            <h3 className="text-lg font-bold mb-1">Software Engineer</h3>
+            <h3 className="text-gray-800 text-lg font-bold mb-1">Full Stack Developer</h3>
             <p className="text-gray-700 mb-1">ABC Company</p>
-            <p className="text-gray-600 text-sm">2020 - Present</p>
+            <p className="text-gray-600 text-sm">2023 - Present</p>
           </div>
           <div>
-            <h3 className="text-lg font-bold mb-1">Frontend Developer</h3>
+            <h3 className="text-gray-800 text-lg font-bold mb-1">Frontend Developer</h3>
             <p className="text-gray-700 mb-1">XYZ Company</p>
-            <p className="text-gray-600 text-sm">2018 - 2020</p>
+            <p className="text-gray-600 text-sm">2020 - 2022</p>
           </div>
         </div>
-        <div>
-          <h2 className="text-2xl font-bold mb-2">Hobbies</h2>
-          <ul className="list-disc list-inside">
-            <li>Reading</li>
-            <li>Playing guitar</li>
-            <li>Hiking</li>
-          </ul>
+        <div className='border-t-2 pt-6 border-black'>
+          <h3 className="text-gray-800 text-2xl font-bold mb-2">Hobbies</h3>
+            <p className="text-gray-700 mb-1">Reading</p>
+            <p className="text-gray-700 mb-1">Programming</p>
+            <p className="text-gray-700 mb-1">Travelling</p>
+        </div>
+        <div className='border-t-2 pt-6 border-black'>
+          <h3 className="text-gray-800 text-2xl font-bold mb-2">Education</h3>
+            <p className="text-gray-700 mb-1">Matric - A+</p>
+            <p className="text-gray-700 mb-1">Intermediate - A+</p>
         </div>
       </div>
     </div>
